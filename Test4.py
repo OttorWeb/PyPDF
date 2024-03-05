@@ -17,7 +17,6 @@ count = 0
 
 pprint(page.images)
 
-
 for image_file_object in page.images:
     # Если запись в коренвой коталог скрипта:
     # fs = str(count) + '-' + image_file_object.name
